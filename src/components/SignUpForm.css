@@ -1,0 +1,70 @@
+
+.sign-up-form {
+  background: linear-gradient(to right, #ff8989, #ebb9dc);
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sign-up-form h2{
+  font-size: 2.5em;
+}
+
+.sign-up-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.sign-up-form input {
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 1em;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.sign-up-form button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  font-size: 1em;
+  color: #fff;
+  background-color: #89000b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sign-up-form button:hover {
+  background-color: #81001a;
+}
+
+.sign-up-form .terms {
+  font-size: 0.9em;
+  color: #99005c;
+  margin-top: 10px;
+}
+
+.sign-up-form .terms a {
+  color: #89000b;
+  text-decoration: none;
+}
+
+.sign-up-form .terms a:hover {
+  text-decoration: underline;
+}
+
+.sign-up-form declaration-section{
+    width:50%;
+}
